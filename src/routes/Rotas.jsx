@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
-import { Inicial } from '../pages/Inicial';
-import { Home } from '../pages/Home';
-import { Curiosidade } from '../pages/Curiosidade';
-import { Livro } from '../pages/Livro';
+import { Inicial } from '../pages/inicial';
+import { Home } from '../pages/home';
+import { Curiosidade } from '../pages/curiosidade';
+import { Livro } from '../pages/livro';
 
 export function MinhasRotas() {
     return (

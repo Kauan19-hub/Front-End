@@ -1,6 +1,6 @@
-import style from './Home.module.css';
+import style from './home.module.css';
 
-export function Home() {
+export function home() {
     return (
         <main className={style.conteiner}>
             <h2 className={style.title}>teste</h2>
