@@ -1,9 +1,9 @@
 import style from './home.module.css';
 
-export function home() {
+export function Home() {
     return (
         <main className={style.conteiner}>
-            <h2 className={style.title}>teste</h2>
+            <h2 className={style.title}></h2>
         </main>
     )
 }

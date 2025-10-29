@@ -1,9 +1,9 @@
-import style from '../styles/livro.module.css';
+import style from '../livro/livro.module.css';
 
-export function livro() {
+export function Livro() {
     return (
         <main className={style.container}>
-            <h2 className={style.title}>Livro</h2>
+            <h2 className={style.title}></h2>
         </main>
     )
 }

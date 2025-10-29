@@ -1,13 +1,11 @@
-import { Cabecalho } from '../../components/cabecalho';
-import { BarraNavegacao } from '../../components/navegacao';
-import { Conteudo } from '../../components/conteudo';
+import { Navegacao} from '../../components/Navegacao';
+import { Conteudo } from '../../components/Conteudo';
 import { Outlet } from 'react-router-dom';
 
-export function inicial() {
+export function Inicial() {
     return (
         <>
-            <Cabecalho/>
-            <BarraNavegacao/>
+            <Navegacao/>
             <Conteudo/>
             <Outlet/>
 

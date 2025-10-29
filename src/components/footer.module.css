@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.footer {
+    background-color: #091852;
+    color: #ffff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    transform: translateY(100px);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.column h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 13px;
+    color: #ffffff;
+    margin: 4px 0;
+    cursor: pointer;
+
+}
+
+.column p:hover {
+    text-decoration: underline;
+
+}
+
+.email {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+    
+}
+
+.email input {
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    width: 180px;
+
+}
+
+.email button {
+    background-color: #c37b2e;
+    color: #ffffff;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.icons a {
+    color: #ffffff;
+}
+
+.logoContainer {
+    margin-left: auto;
+
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    animation: giro 10s linear infinite;
+
+}
+
+.line {
+    border: none;
+    border-top: 1px solid #ffffff;
+    margin: 14px 0;
+    opacity: 0.5;
+
+}
+
+.copyright {
+    text-align: center;
+    font-size: 13px;
+    color: #ffffff;
+
+}
+
+/* Animação logo do react */
+@keyframes giro {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+
+}

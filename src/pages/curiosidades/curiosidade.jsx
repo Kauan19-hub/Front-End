@@ -1,6 +1,6 @@
-import style from '../style/curiosidade.module.css';
+import style from '../curiosidades/curiosidade.module.css';
 
-export function curiosidade() {
+export function Curiosidade() {
     return (
         <main className={style.container}>
             <h2 className={style.title}></h2>

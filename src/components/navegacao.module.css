@@ -1,0 +1,35 @@
+.navbars {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+
+}
+
+.navbars ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbars li a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    padding: 13px 17px;
+    border-radius: 10px;
+
+}
+
+.navbars li a:hover {
+    background-color: #d21111;
+
+}
+

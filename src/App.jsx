@@ -1,7 +1,6 @@
-// import { Inicial } from './Paginas/Inicial';
-// import './App.css';
-// import { BarraNavegacao } from './Componentes/BarraNavegacao';
-
+import { Inicial } from './pages/inicial/inicial';
+import './App.css';
+import { Navegacao } from './components/Navegacao';
 import { BrowserRouter } from 'react-router-dom';
 import { MinhasRotas } from './routes/Rotas';
 
