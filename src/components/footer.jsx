@@ -49,6 +49,5 @@ export function Footer() {
                 &copy; Aplicação Crepúsculo 2025. Todos os direitos reservados.
             </p>
         </footer>
-
     );
 }
