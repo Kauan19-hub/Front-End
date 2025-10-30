@@ -107,6 +107,32 @@ VITE v5.x.x  ready in 300ms
 
 ---
 
+**<h2>⚠️ Important</h2>**
+
+###
+
+Dependend da versão do seu `Node.JS`, ele pode não instalar ao rodar o `npm i`. A versão usada no projeto, é a versão `22`!
+
+###
+```powershell 
+npm --version
+```
+
+###
+```
+22.19.0
+```
+
+###
+
+Caso você queira testar o projeto, fique à vontade! Apenas certifique-se de que a **versão** do `Node` da sua máquina seja igual ao do projeto. Abaixo, está o **link** oficial do **NODE.JS** para saber tudo sobre versões e instalações.
+
+###
+
+[https://nodejs.org](https://nodejs.org)
+
+---
+
 <div align="left">
   <img src="https://skillicons.dev/icons?i=react" height="30" alt="react logo" title="React" />
   <img width="2" />
