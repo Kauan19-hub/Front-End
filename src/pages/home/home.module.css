@@ -50,12 +50,16 @@
 }
 
 .text {
-    color: #333;
+    color: #000000;
     line-height: 1.6;
     flex: 1;
     max-width: 610px;
     text-align: justify;
 
+}
+
+.text p {
+    margin-bottom: 17px;
 }
 
 .image {

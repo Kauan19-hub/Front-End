@@ -1,6 +1,5 @@
 import style from './home.module.css';
 import stephanye_meyer from '../../assets/images/stephanye_meyer.jpg';
-import { Footer } from '../../components/footer';
 
 export function Home() {
     return (
@@ -41,7 +40,7 @@ export function Home() {
                 </div>
             </section>
         </main>
-
+        
     </>
     );
 }
