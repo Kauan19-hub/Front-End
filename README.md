@@ -111,7 +111,7 @@ VITE v5.x.x  ready in 300ms
 
 ###
 
-Depending on your version `Node.JS`, It may not install when running the `npm i`. The version used in the project is version `22.18.0`!
+Depending on your version `Node.JS`, It may not install when running the `npm i`. The version used in the project is version `22.18.0`.
 
 ###
 ```powershell 
@@ -119,8 +119,21 @@ npm --version
 ```
 
 ###
+
+Node.JS version:
+
+###
 ```
 22.18.0
+```
+
+###
+
+NPM version:
+
+###
+```
+11.6.0
 ```
 
 ###
