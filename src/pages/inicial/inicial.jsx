@@ -1,16 +1,13 @@
 import { Navegacao } from '../../components/navegacao';
-import { Conteudo } from '../../components/Conteudo';
 import { Outlet } from 'react-router-dom';
-import { Footer } from '../livro/footer';
+import { Footer } from '../../components/footer';
 
 export function Inicial() {
     return (
-        <>
+        <div>
             <Navegacao/>
-            <Conteudo/>
-            <Outlet/> {/* Rotas filhas aqui */}
-            <Footer/>
-
-        </>
-    )
+            <Outlet/>  {/* Rotas filhas aqui, páginas abertas */}
+            <Footer/> {/* Footer fixo */}
+        </div>
+    );
 }

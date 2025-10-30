@@ -1,4 +1,4 @@
-import style from '../components/footer.module.css'
+import style from './footer.module.css';
 import react_logo from '../assets/images/react_logo.jpg';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
@@ -46,6 +46,8 @@ export function Footer() {
 
             <hr className={style.line}/>
             <p className={style.copyright}>
+                https://www.pensador.com/autor/stephenie_meyer/biografia/<br/>
+                https://www.aficionados.com.br/personagens-principais-saga-crepusculo-historias/<br/><br/>
                 &copy; Aplicação Crepúsculo 2025. Todos os direitos reservados.
             </p>
         </footer>

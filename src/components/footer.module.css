@@ -74,6 +74,10 @@ body {
 
 }
 
+.email button:hover {
+    background-color: #8e5518;
+}
+
 .icons {
     display: flex;
     gap: 10px;

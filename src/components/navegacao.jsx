@@ -12,5 +12,4 @@ export function Navegacao() {
     </nav>
 
   );
-  
 }

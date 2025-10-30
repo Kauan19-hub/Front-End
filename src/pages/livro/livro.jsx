@@ -1,5 +1,4 @@
 import style from '../livro/livro.module.css';
-import { Footer } from '../../components/footer';
 
 export function Livro() {
     return (
@@ -31,8 +30,6 @@ export function Livro() {
                     </div>
                 </section>
             </main>
-
-            <Footer/>
         </>
     )
 }
