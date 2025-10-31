@@ -32,7 +32,7 @@ export function Livro() {
                         </p>
 
                         <p>
-                            Lindo, perfeito, misterioso, ele é à primeira vista, hostil à presença de Bella - o que provoca nela uma
+                            Misterioso, ele é à primeira vista, hostil à presença de Bella - o que provoca nela uma
                             inquietação desconcertante. Ela se apaixona. Ele, no melhor estilo "amor proibido", alerta: Sou um risco para você.
                             Ela é uma garota incomum. Ele é um vampiro. Ela precisa aprender a controlar seu corpo quando ele a toca. Ele,
                             a controlar sua sede pelo sangue dela. Em meio a descobertas e sobressaltos, Edward é, sim, perigoso: um perigo
