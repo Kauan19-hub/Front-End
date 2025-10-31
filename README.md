@@ -155,6 +155,14 @@ npm run preview
 ```
 
 ###
+```poweshell
+npm i
+```
+
+###
+```powershell
+npm run dev
+```
 
 ---
 
