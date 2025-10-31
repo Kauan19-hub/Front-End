@@ -144,6 +144,18 @@ If you want to test the project, Feel free! Just make sure that the **version** 
 
 [https://nodejs.org](https://nodejs.org)
 
+###
+```powershell
+npm run build
+```
+
+###
+```powershell
+npm run preview
+```
+
+###
+
 ---
 
 <div align="left">
