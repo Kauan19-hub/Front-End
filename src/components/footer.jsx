@@ -46,6 +46,7 @@ export function Footer() {
 
             <hr className={style.line}/>
             <p className={style.copyright}>
+                https://loja.intrinseca.com.br/crepusculo/<br/>
                 https://www.pensador.com/autor/stephenie_meyer/biografia/<br/>
                 https://www.aficionados.com.br/personagens-principais-saga-crepusculo-historias/<br/><br/>
                 &copy; Aplicação Crepúsculo 2025. Todos os direitos reservados.
