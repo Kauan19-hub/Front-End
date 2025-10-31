@@ -3,6 +3,7 @@ import { Inicial } from '../pages/inicial/inicial';
 import { Home } from '../pages/home/home.jsx';
 import { Curiosidade } from '../pages/curiosidades/curiosidade';
 import { Livro } from '../pages/livro/livro';
+// Todas as páginas importadas aqui, para a navegação funcionar
 
 export function MinhasRotas() {
     return (

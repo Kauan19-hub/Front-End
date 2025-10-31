@@ -7,7 +7,7 @@ export function Inicial() {
         <div>
             <Navegacao/>
             <Outlet/>  {/* Rotas filhas aqui, páginas abertas */}
-            <Footer/> {/* Footer fixo */}
+            <Footer/> {/* Footer fixo - se aplica nas 3 páginas, para não correr o risco de se duplicar em uma delas */}
         </div>
     );
 }

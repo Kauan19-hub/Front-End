@@ -65,17 +65,13 @@ body {
 }
 
 .email button {
-    background-color: #c37b2e;
+    background-color: #8e5518;
     color: #ffffff;
     border: none;
     padding: 7px 13px;
     border-radius: 4px;
     cursor: pointer;
 
-}
-
-.email button:hover {
-    background-color: #8e5518;
 }
 
 .icons {

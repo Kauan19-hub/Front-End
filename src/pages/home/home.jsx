@@ -1,5 +1,5 @@
 import style from './home.module.css';
-import stephanye_meyer from '../../assets/images/stephanye_meyer.jpg';
+import stephanye_meyer from '../../assets/images/stephanye_meyer.webp'; //  Importe da imagem da autora
 
 export function Home() {
     return (
@@ -36,7 +36,7 @@ export function Home() {
                 </div>
 
                 <div className={style.image}>
-                    <img src={stephanye_meyer} alt="Stephanye Meyer" className={style.autoraImg}/>
+                    <img src={stephanye_meyer} alt="Stephanye Meyer" className={style.autoraImg} loading="lazy" /> {/* Imagem da autora inserida */}
                 </div>
             </section>
         </main>

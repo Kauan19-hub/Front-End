@@ -1,6 +1,6 @@
 import style from './footer.module.css';
-import react_logo from '../assets/images/react_logo.jpg';
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import react_logo from '../assets/images/react_logo.webp'; // Logo importado
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'; // ícones importados
 
 export function Footer() {
     return (
@@ -32,7 +32,7 @@ export function Footer() {
                         <input type='email' placeholder='Endereço de email'/>
                         <button>Enviar</button>
                     </div>
-                    <div className={style.icons}>
+                        <div className={style.icons}> {/* Links das redes sociais acompanhados dos ícones */}
                         <a href="https://www.instagram.com/kauanl01/?igsh=MTA1czhyN3liM3l0NQ%3D%3D#"><FaInstagram /></a>
                         <a href="https://www.linkedin.com/in/kauan-vin%C3%ADcius?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin /></a>
                         <a href="https://github.com/Kauan19-hub"><FaGithub /></a>
@@ -40,7 +40,7 @@ export function Footer() {
                 </div>
 
                 <div className={style.logoContainer}>
-                    <img src={react_logo} alt="Logo React" className={style.logo}/>
+                    <img src={react_logo} alt="Logo React" loading="lazy" className={style.logo}/>
                 </div>
             </div>
 

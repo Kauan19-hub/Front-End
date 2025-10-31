@@ -5,6 +5,7 @@ export function Livro() {
         <>
             <main className={style.container}>
                 <section className={style.header}>
+                    {/* DOTS: 3 bolinhas vermelhas definidas como 'span' para serem inseridas acima dos textos */}
                     <div className={style.dots}>
                         <span className={style.dot}></span>
                         <span className={style.dot}></span>
@@ -31,5 +32,5 @@ export function Livro() {
                 </section>
             </main>
         </>
-    )
+    );
 }
