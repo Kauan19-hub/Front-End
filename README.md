@@ -53,7 +53,8 @@ Isabella moves from her city called **Phoenix**, where she lived with her mother
 ###
 
 [https://www.aficionados.com.br](https://www.aficionados.com.br/personagens-principais-saga-crepusculo-historias/)<br>
-[https://www.pensador.com](https://www.pensador.com/autor/stephenie_meyer/biografia/)
+[https://www.pensador.com](https://www.pensador.com/autor/stephenie_meyer/biografia/)<br>
+[https://loja.intrinseca.com](https://loja.intrinseca.com.br/crepusculo/)
 
 ###
 
