@@ -9,9 +9,16 @@ body {
 
 }
 
+:root {
+    --blue: #091852;
+    --white: #F5F5F5;
+    --btn: #8e5518;
+    
+}
+
 .footer {
-    background-color: #091852;
-    color: #ffff;
+    background-color: var(--blue);
+    color: var(--white);
     width: 100%;
     box-sizing: border-box;
     padding: 30px 50px;
@@ -37,7 +44,7 @@ body {
 
 .column p {
     font-size: 13px;
-    color: #ffffff;
+    color: var(--white);
     margin: 4px 0;
     cursor: pointer;
 
@@ -65,7 +72,7 @@ body {
 }
 
 .email button {
-    background-color: #8e5518;
+    background-color: var(--btn);
     color: #ffffff;
     border: none;
     padding: 7px 13px;
@@ -84,7 +91,7 @@ body {
 }
 
 .icons a {
-    color: #ffffff;
+    color: var(--white);
 }
 
 .logoContainer {
@@ -101,7 +108,7 @@ body {
 
 .line {
     border: none;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid var(--white);
     margin: 14px 0;
     opacity: 0.5;
 
@@ -110,7 +117,7 @@ body {
 .copyright {
     text-align: center;
     font-size: 13px;
-    color: #ffffff;
+    color: var(--white);
 
 }
 
