@@ -8,12 +8,12 @@
   "theme_color": "#20232a",
   "icons": [
     {
-      "src": "/src/assets/images/react_logo.webp",
+      "src": "/public/react_logo.webp",
       "sizes": "192x192",
       "type": "image/webp"
     },
     {
-      "src": "/src/assets/images/react_logo.webp",
+      "src": "/public/react_logo.webp",
       "sizes": "512x512",
       "type": "image/webp"
     }
