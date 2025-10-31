@@ -2,14 +2,26 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preload" as="image" href="../../assets/images/stephanye_meyer.webp">
-    <link rel="icon" href="/src/assets/images/react_logo.webp">
+    <!-- Os ícones exibidos na barra de navegação, possuem tamanhos diferentes para se adaptarem
+     em diferentes tamanhos de tela (responsividade - IMPORTANTE) -->
+    <link rel="preload" as="image" href="/public/stephanye_meyer.webp">
+    <link rel="icon" type="image/png" sizes="512x512" href="/react_logo.webp">
+    <link rel="icon" type="image/png" sizes="192x192" href="/public/react_logo.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/react_logo.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/images/react_logo.webp">
+
+    <!-- Ajuda na PWA e na compatibilidade com IOS -->
+     <link rel="manifest" href="/manifest.webmanifest">
+     <link rel="apple-touch-icon" href="/app-touch.png">
+
+     <!-- Metadados cruciais, controlam responsividade, descrição e informações para SEO -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aplicação com React">
     <meta name="keywords" content="Stephanye Meyer, Livros, Crepúsculo, Autora">
     <meta name="author" content="Kauan Vinícius">
-    <title>Crepúsculo</title>
+    <title>Aplicação React - Crepúsculo</title>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/pages/style/main.jsx"></script>

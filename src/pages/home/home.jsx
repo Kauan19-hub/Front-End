@@ -1,5 +1,5 @@
 import style from './home.module.css';
-import stephanye_meyer from '../../assets/images/stephanye_meyer.webp'; //  Importe da imagem da autora
+import stephanye_meyer from '../../../public/stephanye_meyer.webp'; //  Importe da imagem da autora
 
 export function Home() {
     return (
