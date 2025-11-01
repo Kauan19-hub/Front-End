@@ -7,7 +7,7 @@
 .navbars {
     background-color: var(--black);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
 }
 
 .navbars li a:hover {
-    background-color: var(--red;
+    background-color: var(--red);
 
 }
 

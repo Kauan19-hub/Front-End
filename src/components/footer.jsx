@@ -1,5 +1,5 @@
 import style from './footer.module.css';
-import react_logo from '../assets/images/react_logo.webp'; // Logo importado
+import react_logo from '../../public/react_logo.webp'; // Logo importado
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'; // ícones importados
 
 export function Footer() {
