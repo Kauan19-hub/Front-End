@@ -106,6 +106,15 @@ VITE v5.x.x  ready in 300ms
 ➜  Local:   http://localhost:5173/
 ```
 
+###
+
+**<h2>Approved in LightHouse</h2>**
+
+###
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/26059aca-f11c-4dc4-85d2-e57c3864f610" />
+
+
 ---
 
 **<h2>⚠️ Important</h2>**
