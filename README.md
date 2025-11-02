@@ -112,7 +112,6 @@ VITE v5.x.x  ready in 300ms
 
 ###
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/26059aca-f11c-4dc4-85d2-e57c3864f610" />
 
 
 ---
