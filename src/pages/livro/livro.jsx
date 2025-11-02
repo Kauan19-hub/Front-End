@@ -1,4 +1,4 @@
-import style from '../livro/livro.module.css';
+import style from '../../pages/livro/livro.module.css';
 
 export function Livro() {
     return (

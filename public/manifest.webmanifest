@@ -1,27 +1,19 @@
 {
   "name": "Aplicação React - Crepúsculo",
   "short_name": "Crepúsculo",
-  "description": "Aplicação React sobre os livros de Stephanye Meyer",
-  "start_url": "/",
+  "description": "Aplicação React sobre os livros de Stephenie Meyer",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#20232a",
   "icons": [
     {
-<<<<<<< HEAD
       "src": "/react_logo.webp",
-=======
-      "src": "/public/react_logo.webp",
->>>>>>> 629f432fcad1cb5d05ec43589fec19eda10e49fd
       "sizes": "192x192",
       "type": "image/webp"
     },
     {
-<<<<<<< HEAD
       "src": "/react_logo.webp",
-=======
-      "src": "/public/react_logo.webp",
->>>>>>> 629f432fcad1cb5d05ec43589fec19eda10e49fd
       "sizes": "512x512",
       "type": "image/webp"
     }
