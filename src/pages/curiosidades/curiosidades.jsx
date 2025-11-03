@@ -12,7 +12,7 @@ import vila2 from "../../assets/images/vila2.webp";
 
 // Array que possui os slides, cada imagem com um texto
 const slider = [
-    { img: renes, texto: "Renesmee é filha de Bella e Edward. Uma personagem híbrido com poder de planejar seu futuro tocando no seu rosto."},
+    { img: renes, texto: "Renesmee é filha de Bella e Edward. Uma personagem híbrida com poder de planejar seu futuro tocando no seu rosto."},
     { img: jack, texto: "Jacob é o melhor amigo de Bella, com uma habilidade de se transformar em um lobo para proteger sua família." },
     { img: edw, texto: "Edward é um personagem vampiro que se apaixona por Bella e criam uma família mais à frente."},
     { img: bella, texto: "Bella é mãe de Renesmee, e personagem principal da saga."},

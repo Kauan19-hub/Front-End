@@ -9,19 +9,11 @@
   "icons": [
     {
       "src": "/react_logo.webp",
-<<<<<<< HEAD
-=======
-      "src": "/public/react_logo.webp",
->>>>>>> 003cf46a6d6d1b4b8bd553360f3a0ea32c223352
       "sizes": "192x192",
       "type": "image/webp"
     },
     {
       "src": "/react_logo.webp",
-<<<<<<< HEAD
-=======
-      "src": "/public/react_logo.webp",
->>>>>>> 003cf46a6d6d1b4b8bd553360f3a0ea32c223352
       "sizes": "512x512",
       "type": "image/webp"
     }
