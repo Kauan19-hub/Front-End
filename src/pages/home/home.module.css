@@ -89,3 +89,39 @@
     box-shadow: var(--shadow1) 0px 6px 12px -2px, var(--shadow2) 0px 3px 7px -3px;
     
 }
+
+/* Responsividade, mobile 766px */
+@media (max-width: 766px) {
+    .container {
+        width: 448px;
+        padding: 20px;
+
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .subtitle {
+        text-align: center;
+
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .autoraImg {
+        width: 190px;
+        height: 190px;
+        transform: translateY(-547px);
+      
+    }
+
+    .text {
+        transform: translateY(240px);
+
+    }
+}

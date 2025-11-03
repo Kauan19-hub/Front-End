@@ -6,7 +6,8 @@
 
 }
 
-:root {
+/* Variável do CSS */
+:root { 
     --red: #d21111;
     --white: #f5f5f5;
     --black: #0e0e0e;
@@ -17,7 +18,8 @@
 }
 
 :root {
-    --spaceImg: 290px; /* Controle da distância entre as imagens*/
+    --spaceImg: 290px; /* Controle da distância entre as imagens, para tela maior */
+    --spaceImg2: 380px /* Controle da distância ente as imagens, para tela menor*/
 }
 
 .container {
@@ -83,7 +85,7 @@
 
 }
 
-/* Posições 3D das imagens */
+/* Transição das imagens, e opacidade */
 .active {
     opacity: 1;
     transform: translateX(0) scale(1);
@@ -91,17 +93,18 @@
 
 }
 
-/* Posição 3D das imagens */
+/* Transição das imagens, espaçamento e opacidade */
 .left {
     opacity: 0.7;
-    transform: translateX(calc(-1 * var(--spaceImg))) scale(0.7) rotateY(20deg);
+    transform: translateX(calc(-1 * var(--spaceImg))) scale(0.7);
     z-index: 2;
 
 }
 
+/* Transição das imagens, espaçamento e opacidade */
 .right {
     opacity: 0.7;
-    transform: translateX(var(--spaceImg)) scale(0.7) rotateY(-20deg);
+    transform: translateX(var(--spaceImg)) scale(0.7);
     z-index: 2;
 
 }
@@ -135,4 +138,69 @@
 .activeDot {
     background: var(--red);
 
+}
+
+/* Responsividade, mobile 766px */
+@media (max-width: 766px) {
+    .container {
+        overflow: hidden;
+        padding: 1rem;
+        
+    }
+
+    .caroul {
+        width: 100%;
+        max-width: none;
+
+    }
+
+    .image {
+        width: 373px;
+        height: 480px;
+        box-shadow:  0 10px 25px var(--shadow2);
+        border-radius: 15px;
+        object-fit: cover;
+        transform: translateY(100px);
+
+    }
+
+    /* Posição 3D das imagens */
+    .left {
+        opacity: 0.7;
+        transform: translateX(calc(-1 * var(--spaceImg2))) scale(0.7);
+        z-index: 2;
+
+    }
+
+    /* Posição 3D das imagens */
+    .right {
+        opacity: 0.7;
+        transform: translateX(var(--spaceImg2)) scale(0.7);
+        z-index: 2;
+
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+        margin-top: 200px;
+
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: var(--shadow1);
+        border-radius: 50%;
+        margin: 0.4px;
+        cursor: pointer;
+        transition: 0.3s ease;
+
+    }
+
+    .activeDot {
+        background: var(--red);
+
+    }
 }
