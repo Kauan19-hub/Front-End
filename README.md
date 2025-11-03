@@ -176,6 +176,32 @@ npm run dev
 
 ---
 
+```js
+{
+  "name": "Aplicação React - Crepúsculo",
+  "short_name": "Crepúsculo",
+  "description": "Aplicação React sobre os livros de Stephenie Meyer",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#20232a",
+  "icons": [
+    {
+      "src": "/react_logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/react_logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}
+```
+
+---
+
 <div align="left">
   <img src="https://skillicons.dev/icons?i=react" height="30" alt="react logo" title="React" />
   <img width="2" />
