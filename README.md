@@ -176,7 +176,7 @@ npm run dev
 
 ---
 
-```js
+```json
 {
   "name": "Aplicação React - Crepúsculo",
   "short_name": "Crepúsculo",
