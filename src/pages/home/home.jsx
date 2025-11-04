@@ -1,7 +1,7 @@
-import style from './home.module.css';
-import stephanye_meyer from '../../assets/images/stephanye_meyer.webp';
+import style from "./home.module.css";
+import stephanye_meyer from "../../assets/images/stephanye_meyer.webp";
 
-export function Home() {
+export default function Home() {
     return (
         <>
         <main className={style.container}>
@@ -36,7 +36,8 @@ export function Home() {
                 </div>
 
                 <div className={style.image}>
-                    <img src={stephanye_meyer} alt="Stephanye Meyer" className={style.autoraImg} loading="lazy" /> {/* Imagem da autora inserida */}
+                    {/* Imagem priorizada no carregamento, e carrega a imagem principal */}
+                    <img src={stephanye_meyer} alt="Stephanye Meyer" className={style.autoraImg} loading="eager" fetchPriority="high" /> {/* Imagem da autora inserida */}
                 </div>
             </section>
         </main>

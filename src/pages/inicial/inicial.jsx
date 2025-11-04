@@ -1,8 +1,8 @@
-import { Navegacao } from '../../components/navegacao';
-import { Outlet } from 'react-router-dom';
-import { Footer } from '../../components/footer';
+import Navegacao from "../../components/navegacao";
+import { Outlet } from "react-router-dom";
+import Footer from "../../components/footer";
 
-export function Inicial() {
+export default function Inicial() {
     return (
         <div>
             <Navegacao/>

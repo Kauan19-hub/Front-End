@@ -1,8 +1,8 @@
-import style from './footer.module.css';
-import react_logo from '../../public/react_logo.webp'; // Logo importado
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'; // ícones importados
+import style from "./footer.module.css";
+import react_logo from "../assets/images/react_logo.webp"; // Logo importado
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"; // ícones importados
 
-export function Footer() {
+export default function Footer() {
     return (
         <footer className={style.footer}>
             <div className={style.container}>
@@ -40,7 +40,7 @@ export function Footer() {
                 </div>
 
                 <div className={style.logoContainer}>
-                    <img src={react_logo} alt="Logo React" loading="lazy" className={style.logo}/>
+                    <img src={react_logo} alt="Logo React" loading="lazy" className={style.logo} />
                 </div>
             </div>
 

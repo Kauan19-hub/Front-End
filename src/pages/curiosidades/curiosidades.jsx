@@ -1,5 +1,5 @@
-import { useState } from 'react'; // Fundamental: armazena e atualiza valores dentro de um componente funcional
-import style from '../curiosidades/curiosidades.module.css';
+import { useState } from "react"; // Fundamental: armazena e atualiza valores dentro de um componente funcional
+import style from "../curiosidades/curiosidades.module.css";
 
 // Importe das imagens
 import ali from "../../assets/images/ali.webp";
@@ -23,7 +23,7 @@ const slider = [
 ];
 
 // Principal função
-export function Curiosidades() {
+export default function Curiosidades() {
     const [index, setIndex] = useState(0);
 
     // Classe CSS

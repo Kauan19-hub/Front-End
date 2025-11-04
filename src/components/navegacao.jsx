@@ -1,8 +1,8 @@
-import style from '../components/navegacao.module.css';
-import { useState } from 'react';
-import { Link } from 'react-router-dom'; // Link: Sua função é ativar a navegação entre as páginas
+import style from "../components/navegacao.module.css";
+import { useState } from "react";
+import { Link } from "react-router-dom"; // Link: Sua função é ativar a navegação entre as páginas
 
-export function Navegacao() {
+export default function Navegacao() {
   const [aberto, setAberto] = useState(false); // Controle de menu
 
   return (
