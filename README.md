@@ -66,16 +66,6 @@ All information about the book will be applied to the project. Here I provide on
 
 ###
 
-**<h2>🔗 Figma Links**
-
-###
-
-- [Colors Palette](https://www.figma.com/design/DjtWNA8Twc1FH6cztRPMgw/Paleta-de-Cores---React?m=auto&t=Mo15JtUiB0x7WiZ3-6)<br>
-- [Screens](https://www.figma.com/design/OET3u2hucu4hDJo0gqGP9a/Telas---React?m=auto&t=1GguUxxy4OtvROwt-6)<br>
-- [Responsiveness](https://www.figma.com/design/QiAIrazEPUqq1j520RglaD/Responsividade---React?m=auto&t=1GguUxxy4OtvROwt-6)
-
----
-
 ```json
 {
   "name": "react-vite",
